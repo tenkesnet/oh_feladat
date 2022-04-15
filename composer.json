@@ -1,0 +1,15 @@
+{
+    "name": "oh/calc",
+    "autoload": {
+        "psr-4": {
+            "Oh\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bardo",
+            "email": "rbardo@gmail.com"
+        }
+    ],
+    "require": {}
+}
