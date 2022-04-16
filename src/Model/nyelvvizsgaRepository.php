@@ -2,7 +2,7 @@
 
 namespace Oh\Model;
 
-class NyelvizsgaRepository
+class NyelvvizsgaRepository
 {
     private array $_nyelvizsgak;
 

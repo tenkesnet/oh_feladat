@@ -5,9 +5,9 @@ namespace Oh\Model;
 class Tobbletpont
 {
     private int $_emeltszint;
-    private NyelvizsgaRepository $_nyelvvizsgak;
+    private NyelvvizsgaRepository $_nyelvvizsgak;
 
-    function __construct( int $emeltszint, NyelvizsgaRepository $nyelvvizsgak)
+    function __construct(int $emeltszint, NyelvvizsgaRepository $nyelvvizsgak)
     {
         $this->_emeltszint = $emeltszint;
         $this->_nyelvvizsgak = $nyelvvizsgak;
@@ -23,7 +23,7 @@ class Tobbletpont
         return $this->_emeltszint;
     }
 
-    public function getNyelvizsgak() : NyelvizsgaRepository
+    public function getNyelvizsgak(): NyelvvizsgaRepository
     {
         return $this->_nyelvvizsgak;
     }
