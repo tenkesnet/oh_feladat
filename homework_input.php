@@ -10,7 +10,7 @@ $exampleData = [
         [
             'nev' => 'magyar nyelv és irodalom',
             'tipus' => 'közép',
-            'eredmeny' => '70%',
+            'eredmeny' => '20%',
         ],
         [
             'nev' => 'történelem',
@@ -30,7 +30,7 @@ $exampleData = [
         [
             'nev' => 'informatika',
             'tipus' => 'közép',
-            'eredmeny' => '95%',
+            'eredmeny' => '30%',
         ],
     ],
     'tobbletpontok' => [

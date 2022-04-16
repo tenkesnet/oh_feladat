@@ -12,4 +12,14 @@ class Nyelvvizsga
         $this->_tipus = $tipus;
         $this->_pont = $pont;
     }
+
+    public function getTipus() : string
+    {
+        return $this->_tipus;
+    }
+
+    public function getpont() : int
+    {
+        return $this->_pont;
+    }
 }
