@@ -90,8 +90,10 @@ class Calc
             }
             $this->_tantargyrepo->add($t);
         }
-        if ($eredmeny == false)
+        if ($eredmeny == false) {
             $this->_errormessage = "hiba, nem lehetséges a pontszámítás a " . implode(", ", $pontszamalatt) . " tárgy(ak)ból elért 20% alatti eredmény miatt";
+        }
+
         return $eredmeny;
     }
 
