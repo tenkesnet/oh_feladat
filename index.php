@@ -19,7 +19,7 @@ $kotelezotantargyak->add(new Tantargy('történelem'));
 $kotelezotantargyak->add(new Tantargy('matematika'));
 
 $kovetelmenyek = new KovetelmenyRepository();
-$kovetelmenyek->add(new Kovetelmeny(new IntezmenySzak('ELTE', 'IK', 'Programtervező informatikus'), 'matematika', 'emelt', [
+$kovetelmenyek->add(new Kovetelmeny(new IntezmenySzak('ELTE', 'IK', 'Programtervező informatikus'), 'matematika', null, [
     'biológia', 'fizika', 'informatika', 'kémia'
 ]));
 $kovetelmenyek->add(new Kovetelmeny(new IntezmenySzak('PPKE', 'BTK', 'Anglisztika'), 'angol', 'emelt', [
