@@ -153,6 +153,7 @@ class CalcTest extends TestCase
         $alappont = $calc->calculate();
         $tobbletpont = $calc->getTobbletpont() > 100 ? 100 : $calc->getTobbletpont();
         $this->assertEquals(0, $alappont);
+        $this->assertEquals(100, $tobbletpont);
         $this->assertEquals("hiba, nem lehetséges a pontszámítás a kötelező érettségi tárgyak hiánya miatt", $calc->getErrormessage());
     }
 
@@ -229,6 +230,7 @@ class CalcTest extends TestCase
         $alappont = $calc->calculate();
         $tobbletpont = $calc->getTobbletpont() > 100 ? 100 : $calc->getTobbletpont();
         $this->assertEquals(0, $alappont);
+        $this->assertEquals(100, $tobbletpont);
         $this->assertEquals("hiba, nem lehetséges a pontszámítás a magyar nyelv és irodalom tárgy(ak)ból elért 20% alatti eredmény miatt", $calc->getErrormessage());
     }
 }
